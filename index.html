@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Das Labrotory Home Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="main.css">
+
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-expand-md">
+            <!-- Brand -->
+            <a class="navbar-brand">
+                <img src="images/otago-logo.jpg" alt="University of Otago Logo" style="width:130px;">
+            </a>
+
+            <!-- Toggler/collapsible Button -->
+            <button class="navbar-toggler navbar-dark"  type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Das Labrotory</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="interests.html">Research interests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Research projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="students.html">Postgraduate students research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">News</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+       
+        <header class="page-header header container-fluid img-fluid">
+            <div class="overlay"></div>
+            <div class="description">
+            <h1>Das Labrotory</h1>
+            <p>The Das Laboratory at the School of Pharmacy investigates formulating and delivering medicines using powder inhalers. The emphasis is on improving the effectiveness of medicines for patients with chronic lung conditions.
+
+            Dr Shyamal Das leads the laboratory, he is also a senior lecturer in the School of Pharmacy and holds numerous responsibilities in teaching and research. He has received many awards for teaching and research achievements and has cultivated national and international collaborators which enable a variety of opportunities for postgraduate research.</p>
+            
+            <ul>His work has attracted funding from:
+
+                <li>Health Research Council of New Zealand</li>
+                <li>Otago Medical Research Council</li>
+                <li>New Zealand Pharmacy Education Research Foundation</li>
+                <li>University of Otago Research Grants</li>
+                <li>Laurenson Award</li>
+                <li>School of Pharmacy</li>
+                <li>Pharmaceutical industries</li>
+            </ul>
+            <button class="btn btn-outline-secondary btn-lg" onclick="toAbout();">Learn more!</button>
+            </div>
+        </header>
+    
+<!--            
+<div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <h3 class="feature-title">Events</h3>
+                    <img src="images/eventshome.jpg" class="img-fluid img-feature">
+                    <p>Come along and participate in one of our many events and meetings!</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <h3 class="feature-title">Causes</h3>
+                    <img src="images/causeshome.jpg" class="img-fluid img-feature">
+                    <p>We aim to fundraise for causes in the Asia-Pacific region.</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <h3 class="feature-title">Have a suggestion?</h3>
+                    <img src="images/suggestionshome.jpg" class="img-fluid img-feature">
+                    <p>Have a suggestion? Let us know using the form on the contact page!</p>
+                </div>
+                
+                <div class="col-lg-3 col-md-3 col-sm-12 form"> 
+                    <iframe class="airtable-embed" src="https://airtable.com/embed/shrra5N8ebDv05SLr?backgroundColor=orangeLight" frameborder="0" onmousewheel="" width="100%" height="100%" style="background: transparent; border: 1px solid #ccc;"></iframe>
+                </div>
+            </div> 
+        </div>
+
+    -->
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+<!-- footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <!-- phone and email -->
+                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                                  
+                    <p>contactapsa@gmail.com
+                        <br/> 022 311 0389
+                        <br/> 021 884 997</p>
+                </div>
+                <!-- social media icons-->
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h6 class="text-uppercase font- weight-bold">Social Media</h6>
+                    <a href="#">
+                        <img src="images/facebook.png" alt="facebook icon" style="width:20%;">
+                    </a>
+                    <a href="#">
+                        <img src="images/instagram.png" alt="instagram icon" style="width:20%;">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-center">© 2020 Copyright: Shyamalima Shreya Das</div>
+    </footer>
+</html>
